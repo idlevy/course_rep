@@ -1,0 +1,6 @@
+---
+ -hosts: localhost
+  var
+ -tasks:
+  template: src=/home/ec2-user/course_rep/course_rep/setting.xml.tmp dest== $M2_HOME/conf/settings.xml 
+
